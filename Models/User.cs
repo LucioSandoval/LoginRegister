@@ -24,7 +24,7 @@ namespace LoginRegistration.Models
         [EmailAddress]
         [Display(Name = "Email", Prompt = "Email")]
         public string Email { get; set; }
-        public string ImageProfile { get; set; }
+        
         [Required(ErrorMessage = "*Required")]
         [MinLength(8)]
         [DataType(DataType.Password)]
